@@ -49,6 +49,7 @@ CORS_ALLOWED_ORIGINS = [
 'https://subramanyam12.github.io'
 ]
 
+ALLOWED_HOSTS=['.vercel.app']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
